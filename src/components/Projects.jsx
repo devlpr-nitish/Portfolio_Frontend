@@ -7,7 +7,7 @@ const Projects = () => {
         Projects
       </h2>
 
-      <div className="flex flex-wrap justify-start m-4 gap-6">
+      <div className="flex flex-wrap justify-start mx-20  lg:mx-4 gap-6">
         {[
           {
             name: "Project 1",

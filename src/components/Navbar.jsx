@@ -52,17 +52,17 @@ const Navbar = () => {
         </div>
       </div>
 
-      <form className="flex items-center">
+      <form className="hidden sm:flex items-center">
         <input
-          type="text"
-          placeholder="skills, projects, articles..."
+          type="email"
+          placeholder="Your email"
           className="px-4 py-2 rounded-l-md focus:outline-none focus:ring-0 bg-transparent border-2 border-r-0 border-blue-500 hover:border-blue-500 text-white"
         />
         <button
           type="submit"
-          className="bg-transparent border-2 border-blue-500 hover:border-pink-500 text-white px-4 py-2 rounded-r-md  "
+          className="bg-transparent border-2 border-blue-500 hover:border-pink-500 text-white px-4 py-2 rounded-r-md"
         >
-          Search
+          Subscribe
         </button>
       </form>
 

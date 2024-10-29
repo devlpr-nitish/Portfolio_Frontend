@@ -5,21 +5,26 @@ import Projects from "../components/Projects";
 import Contact from "../components/Contact";
 import Achivments from "../components/Achivments";
 import Footer from "../components/Footer";
+import Todos from "../components/Todos";
+import Blogs from "../components/Blogs";
+
 const Home = () => {
   return (
     <>
       <div className="relative flex flex-wrap bg-gray-800 h-full my-2 mx-8 rounded-sm">
-        <Skills />
-
-        <Coding />
+        <div className="container w-full flex flex-col lg:flex-row flex-wrap">
+          <Skills />
+          <Coding />
+        </div>
 
         <Projects />
-
-        <Contact />
-
+        <div className="container w-full flex flex-col lg:flex-row flex-wrap">
+          <Contact />
+          <Todos />
+        </div>
         <Achivments />
-
-        <Footer />    
+        <Blogs />
+        <Footer />
       </div>
     </>
   );

@@ -30,6 +30,21 @@ const SocialLink = ({ href, icon: Icon, label }) => (
 const Footer = () => {
   return (
     <footer className="bg-transparent text-white mt-8 w-full">
+      <div className="lg:hidden flex flex-wrap w-full mx-8 mb-2">
+        <form className="w-auto">
+          <input
+            type="email"
+            placeholder="Your email"
+            className="px-4 py-2 rounded-l-md focus:outline-none focus:ring-0 bg-transparent border-2 border-r-0 border-blue-500 hover:border-blue-500 text-white"
+          />
+          <button
+            type="submit"
+            className="bg-transparent border-2 border-blue-500 hover:border-pink-500 text-white px-4 py-2 rounded-r-md"
+          >
+            Subscribe
+          </button>
+        </form>
+      </div>
       <div className="container mx-auto flex flex-col items-center">
         <div className="flex space-x-6 mb-4">
           {socialLinks.map((link) => (

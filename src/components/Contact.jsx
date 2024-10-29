@@ -3,12 +3,12 @@ import Todos from "./Todos";
 
 const Contact = () => {
   return (
-    <div className="relative w-full h-auto mt-5">
+    <div className="relative w-full lg:w-2/3 h-auto mt-5">
       <h2 className="text-2xl font-bold text-white mb-4 px-4 border-l-4 border-blue-500 ml-4">
         Contact
       </h2>
 
-      <div className="w-2/3">
+      <div className="w-full">
         <form className="bg-transparent rounded px-8 pt-6 pb-8 mb-4">
           <div className="mb-4">
             <label
@@ -64,7 +64,7 @@ const Contact = () => {
       </div>
 
 
-      <Todos /> 
+      
     </div>
   );
 };
