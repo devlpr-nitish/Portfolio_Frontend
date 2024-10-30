@@ -1,5 +1,5 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
 const Blogs = () => {
   // Blog data
@@ -7,22 +7,24 @@ const Blogs = () => {
     {
       id: 1,
       title: "Using Custom Hooks in React",
-      description: "Detailed guide on how to create and use Custom Hooks in React with practical examples.",
+      description:
+        "Detailed guide on how to create and use Custom Hooks in React with practical examples.",
       date: "March 15, 2024",
-      link: "https://yourblog.com/react-custom-hooks"
+      link: "https://yourblog.com/react-custom-hooks",
     },
     {
       id: 2,
       title: "Array Methods in JavaScript",
-      description: "Comprehensive guide to all important JavaScript Array Methods with examples.",
+      description:
+        "Comprehensive guide to all important JavaScript Array Methods with examples.",
       date: "March 10, 2024",
-      link: "https://yourblog.com/js-array-methods"
+      link: "https://yourblog.com/js-array-methods",
     },
     // You can add more blogs here
   ];
 
   return (
-    <div className="min-h-screen bg-gray-800 py-12 px-4 sm:px-6 lg:px-8 mt-2">
+    <div className="min-h-screen bg-gray-800  px-4 sm:px-6 lg:px-8 mx-8 mt-2">
       <div className="max-w-7xl mx-auto">
         <h1 className="text-4xl font-bold text-center text-gray-300 mb-12 py-4 border-blue-500 border-b-2">
           My Blogs
@@ -55,6 +57,6 @@ const Blogs = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Blogs
+export default Blogs;
