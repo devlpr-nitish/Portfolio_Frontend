@@ -11,7 +11,7 @@ import Blogs from "../components/Blogs";
 const Home = () => {
   return (
     <>
-      <div className="relative flex flex-wrap bg-gray-800 h-full my-2 mx-8 rounded-sm">
+      <div className="relative flex flex-wrap bg-gray-800 h-full w-auto my-2 mx-8 rounded-sm">
         <div className="container w-full flex flex-col lg:flex-row flex-wrap">
           <Skills />
           <Coding />

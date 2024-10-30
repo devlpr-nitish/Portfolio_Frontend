@@ -30,7 +30,7 @@ const SocialLink = ({ href, icon: Icon, label }) => (
 const Footer = () => {
   return (
     <footer className="bg-transparent text-white mt-8 w-full">
-      <div className="lg:hidden flex flex-wrap w-full mx-8 mb-2">
+      <div className="lg:hidden flex flex-wrap w-full mx-6 mb-2">
         <form className="w-auto">
           <input
             type="email"

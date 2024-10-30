@@ -25,7 +25,7 @@ const Navbar = () => {
           <span className="text-white text-lg">Nitish</span>
           <span className="text-gray-300 text-sm">@devlprnitish</span>
         </div>
-        <div className="ml-4 relative group h-auto w-auto">
+        {/* <div className="ml-4 relative group h-auto w-auto">
           <button className="text-white hover:text-gray-300 focus:outline-none">
             <IoMdArrowDropdown />
           </button>
@@ -37,19 +37,19 @@ const Navbar = () => {
                 the past year, I’ve served as a campus mantri for GeeksforGeeks,
                 where I've had the opportunity to engage deeply with tech
                 communities and foster learning environments. My passion lies in
-                using technology to create innovative, real-world solutions. <br/> I
-                thrive on tackling complex challenges and continuously expanding
-                my skill set to stay ahead in the fast-evolving tech landscape.
-                I’m actively seeking opportunities to apply my expertise and
-                grow as a software engineer. Let’s connect and explore potential
-                collaborations to drive impact in the digital space.
-                <br/>
-                 Thank you!
-                :)
+                using technology to create innovative, real-world solutions.{" "}
+                <br /> I thrive on tackling complex challenges and continuously
+                expanding my skill set to stay ahead in the fast-evolving tech
+                landscape. I’m actively seeking opportunities to apply my
+                expertise and grow as a software engineer. Let’s connect and
+                explore potential collaborations to drive impact in the digital
+                space.
+                <br />
+                Thank you! :)
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <form className="hidden sm:flex items-center">
